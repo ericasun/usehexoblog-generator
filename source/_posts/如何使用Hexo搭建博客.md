@@ -5,7 +5,7 @@ tags:
 ---
 第1步：创建一个目录（建议：别在根目录 ） mkdir hexoblog
 第2步：进入目录 cd hexoblog
-第3步：在 GitHub 上新建一个空 repo 例如：firstblog
+第3步：在 GitHub 上新建一个空 repo ,repo 名称是「仓库名.github.io」（仓库名一定要这个格式）
 第4步：安装Hexo，执行命令 npm install -g hexo-cli
 第5步：创建博客系统 hexo init myBlog
 第6步：进入博客系统 cd myBlog
@@ -24,4 +24,4 @@ tags:
 第11步：安装 git 部署插件 npm install hexo-deployer-git --save
        （之后再修改博客需要上传，可执行：hexo generate代替该步）
 第12步：上传博客系统（包括文章）hexo deploy
-第13步：进入firstblog对应的 repo，打开 GitHub Pages 功能（setting中），就可以直接点击预览链接
+第13步：进入「仓库名.github.io」对应的 repo，打开 GitHub Pages 功能（setting中），就可以直接点击预览链接
